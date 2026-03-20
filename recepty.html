@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Recepty</title>
+    <link rel="stylesheet" href="recepty.css">
+</head>
+<body>
+
+<header>
+    <h1>Recepty</h1>
+    <p>Všetky recepty z maminej kuchárky + vaše recepty, ktoré ste nám poslali a overili sme</p>
+
+    <div class="global-counter">
+        Celkový počet zobrazení receptov:
+        <span id="globalCount">0</span>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="recepty.html" class="active">Recepty</a></li>
+        <li><a href="poslatsvojrecept.html">Poslať svoj recept</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section class="toprecepty">
+<h2>Polievky</h2>
+
+<div class="recept">
+<img src="originalneobrazky/paradajkovapolievka.jpg" alt="Paradajková polievka">
+<div class="text">
+<h3>Paradajková polievka</h3>
+<p>Jednoduchá polievka ako z detstva.</p>
+<p class="tag vegan">🌱 Vegán</p>
+<p class="views">Zobrazenia: <span id="paradajkovapolievka">0</span></p>
+<a href="paradajkovapolievka.html" data-id="paradajkovapolievka">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/borsc.jpg" alt="Boršč">
+<div class="text">
+<h3>Boršč</h3>
+<p>Tradičná hustá polievka z hovädzieho mäsa a červenej repy.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="borsc">0</span></p>
+<a href="borsc.html" data-id="borsc">Zobraziť recept →</a>
+</div>
+</div>
+
+</section>
+
+<section class="toprecepty">
+<h2>Hlavné jedlá</h2>
+
+<div class="recept">
+<img src="originalneobrazky/hovadzigulas.jpg" alt="Hovädzí guláš">
+<div class="text">
+<h3>Hovädzí guláš</h3>
+<p>Tradičný domáci guláš vhodný na obed alebo večeru.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="hovadzigulas">0</span></p>
+<a href="hovadzigulas.html" data-id="hovadzigulas">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/mexickygulas.jpg" alt="Mexický guláš">
+<div class="text">
+<h3>Mexický guláš</h3>
+<p>Pikantný hovädzí guláš s paradajkovým základom.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="mexickygulas">0</span></p>
+<a href="mexickygulas.html" data-id="mexickygulas">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/treskazkurata.jpg" alt="Treska z kuraťa">
+<div class="text">
+<h3>Treska z kuraťa</h3>
+<p>Studený šalát s kuracím mäsom a kyslou zeleninou.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="treskazkurata">0</span></p>
+<a href="treskazkurata.html" data-id="treskazkurata">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/domacapizza.jpg" alt="Domáca pizza">
+<div class="text">
+<h3>Domáca pizza</h3>
+<p>Čerstvá pizza s vlastným cestom a plnkami.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="domacapizza">0</span></p>
+<a href="domacapizza.html" data-id="domacapizza">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/pizzarozky.jpg" alt="Pizza rožky">
+<div class="text">
+<h3>Pizza rožky</h3>
+<p>Mäkké rožky plnené salámou a syrom.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="pizzarozky">0</span></p>
+<a href="pizzarozky.html" data-id="pizzarozky">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/svieckovanasmotane.jpg" alt="Sviečková na smotane">
+<div class="text">
+<h3>Sviečková na smotane</h3>
+<p>Tradičné sviatočné jedlo so smotanovou omáčkou.</p>
+<p class="tag maso">🥩 Mäso</p>
+<p class="views">Zobrazenia: <span id="svieckovanasmotane">0</span></p>
+<a href="svieckovanasmotane.html" data-id="svieckovanasmotane">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/domacebuchty.jpg" alt="Domáce buchty">
+<div class="text">
+<h3>Domáce buchty</h3>
+<p>Mäkké kysnuté buchty plnené tradičným lekvárom.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="domacebuchty">0</span></p>
+<a href="domacebuchty.html" data-id="domacebuchty">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/domacepalacinky.jpg" alt="Domáce palacinky">
+<div class="text">
+<h3>Domáce palacinky</h3>
+<p>Jemné palacinky s džemom alebo tvarohom.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="domacepalacinky">0</span></p>
+<a href="domacepalacinky.html" data-id="domacepalacinky">Zobraziť recept →</a>
+</div>
+</div>
+
+</section>
+
+<section class="toprecepty">
+<h2>Dezerty</h2>
+
+<div class="recept">
+<img src="originalneobrazky/jablkovykolac.jpg" alt="Jablkový koláč">
+<div class="text">
+<h3>Jablkový koláč</h3>
+<p>Voňavý koláč s jablkami a škoricou.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="jablkovykolac">0</span></p>
+<a href="jablkovykolac.html" data-id="jablkovykolac">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/medoverezy.jpg" alt="Medové rezy">
+<div class="text">
+<h3>Medové rezy</h3>
+<p>Sladké vrstvené medové rezy s krémom a čokoládou.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="medoverezy">0</span></p>
+<a href="medoverezy.html" data-id="medoverezy">Zobraziť recept →</a>
+</div>
+</div>
+
+<div class="recept">
+<img src="originalneobrazky/bananovogastanovykolac.jpg" alt="Banánovo-gaštanový koláč">
+<div class="text">
+<h3>Banánovo-gaštanový koláč</h3>
+<p>Sladký koláč s banánmi a gaštanovým pyré.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="bananovogastanovykolac">0</span></p>
+<a href="bananovogastanovykolac.html" data-id="bananovogastanovykolac">Zobraziť recept →</a>
+</div>
+</div>
+
+</section>
+
+<section class="toprecepty">
+<h2>Pečivo</h2>
+
+<div class="recept">
+<img src="originalneobrazky/domacichlieb.jpg" alt="Domáci chlieb">
+<div class="text">
+<h3>Domáci chlieb</h3>
+<p>Tradičný chlieb s varenými zemiakmi a kmínom.</p>
+<p class="tag vege">🥦 Vegetarián</p>
+<p class="views">Zobrazenia: <span id="domacichlieb">0</span></p>
+<a href="domacichlieb.html" data-id="domacichlieb">Zobraziť recept →</a>
+</div>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>Prajeme dobrú chuť!</p>
+</footer>
+
+<script src="recepty.js"></script>
+
+</body>
+</html>

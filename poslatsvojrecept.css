@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f6f1ea;
+    color: #3e2f2f;
+}
+
+header {
+    background: linear-gradient(135deg, #6b4f3f, #8b6a55);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #fffaf2;
+    border-bottom: 1px solid #e0d6c8;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #6b4f3f;
+    text-decoration: none;
+    padding: 15px 0;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+}
+
+nav ul li a.active::before {
+    content: "";
+    position: absolute;
+    top: 7.5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #8b6a55;
+    border-radius: 2px;
+}
+
+.kontakt {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fffdf8;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.kontakt h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.email-btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background-color: #8b6a55;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.email-btn:hover {
+    background-color: #6b4f3f;
+}
+
+.recept-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.recept-form label {
+    font-weight: 600;
+}
+
+.recept-form input,
+.recept-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d8cfc2;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.recept-form textarea {
+    resize: vertical;
+}
+
+.recept-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #8b6a55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.recept-form button:hover {
+    background-color: #6b4f3f;
+}
+
+.recept-form textarea {
+    resize: vertical;
+}
